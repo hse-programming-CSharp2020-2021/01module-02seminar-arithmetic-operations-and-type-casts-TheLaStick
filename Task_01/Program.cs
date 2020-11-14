@@ -40,12 +40,22 @@ namespace Task_01 {
 
 		}
 
-		static double Function(double x) {
-			// TODO : Реализовать вычисление функции F(x).
+		static double Function(double x)
+		{
+			return 12 * myPow(x, 4) + 9 * myPow(x, 3) - 3 * x * x + 2 * x - 4;
 		}
 
-		static double myPow(double x, int pow) {
-			// TODO : Реализовать быстрое возведение в степень.
+		static double myPow(double x, int pow)
+		{
+			if (pow == 0)
+				return 1;
+			if (pow % 2 == 1)
+				return myPow(x, pow - 1) * x;
+			else
+			{
+				double res = myPow(x, pow / 2);
+				return res * res;
+			}
 		}
 	}
 }
