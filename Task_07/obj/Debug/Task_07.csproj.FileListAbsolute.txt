@@ -1,0 +1,7 @@
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\bin\Debug\Task_07.exe.config
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\bin\Debug\Task_07.exe
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\bin\Debug\Task_07.pdb
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\obj\Debug\Task_07.csprojAssemblyReference.cache
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\obj\Debug\Task_07.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\obj\Debug\Task_07.exe
+C:\Users\ASUS\Source\Repos\01module-02seminar-arithmetic-operations-and-type-casts-TheLaStick\Task_07\obj\Debug\Task_07.pdb

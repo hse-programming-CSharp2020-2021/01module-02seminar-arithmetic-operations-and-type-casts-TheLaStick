@@ -37,15 +37,26 @@ namespace Task_03 {
 
 			double a, b, c;
 			// TODO : Считать коэффициенты.
+			a = double.Parse(Console.ReadLine());
+			b = double.Parse(Console.ReadLine());
+			c = double.Parse(Console.ReadLine());
 
-			double discriminant = ;
+			double discriminant = b * b - 4 * a * c;
 
 			// TODO : Проверить существование вещественных корней, если их нет, 
 			// записать в результирующую строку complexRootsMessage.
 			// А если корни есть, то записать их.
-			string result = ;
 
+			string message;
+			if (discriminant < 0)
+				message = "complex roots";
+			else if (discriminant == 0)
+				message = $"{-b / (2 * a)}";
+			else
+				message = $"{(-b - Math.Sqrt(discriminant)) / (2 * a)}" + Environment.NewLine +
+					$"{(-b + Math.Sqrt(discriminant)) / (2 * a)}";
 
+			string result = message;
 			Console.WriteLine(result);
 		}
 	}

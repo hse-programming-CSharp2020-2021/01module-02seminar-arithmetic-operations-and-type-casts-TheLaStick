@@ -38,19 +38,27 @@ namespace Task_05 {
 
 			double a, b, c;
 			// TODO : Считать 3 стороны треугольника.
-
+			a = double.Parse(Console.ReadLine());
+			b = double.Parse(Console.ReadLine());
+			c = double.Parse(Console.ReadLine());
 
 			// TODO : Проверить неравенство треугольника и поместить в 
 			// результирующую строку notTriangleMessage 
 			// или площадь треугольника.
-			string result = ;
+			string message;
+			if (a < b + c && b < a + c && c < a + b)
+				message = $"{Sqare(a, b, c):F3}";
+			else
+				message = "not a triangle";
+
+			string result = message;
 
 			Console.WriteLine(result);
 		}
 
 		static double Sqare(double a, double b, double c) {
-			// TODO : Реализоать вычисление площади по формуле Герона. Ну или что-нибудь более извращённое 🙃.
-			return;
+			double p = (a + b + c) / 2;
+			return Math.Sqrt(p*(p - a)*(p - b)*(p - c));
 		}
 	}
 }
